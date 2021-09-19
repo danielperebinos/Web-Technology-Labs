@@ -1,0 +1,88 @@
+.mainbox {
+  max-width: 80%;
+  height: 1500px;
+
+  margin: auto;
+  background-color: #E7EAED;
+}
+
+.background {
+  background-image: url("Images/elf.jpg");
+  background-size: cover;
+  background-position: top;
+  background-attachment: scroll;
+
+  max-width: 100%;
+  height: 300px;
+  margin-top: 5%;
+
+  color: white;
+  font-size: 300%;
+  font-weight: bold;
+
+  z-index: 500;
+}
+
+.topbooks, .latest, .newBooks {
+  max-width: 100%;
+  height: 200px;
+  align-items: center;
+
+  margin-top: 2%;
+  padding: 2% 0;
+}
+
+.slider__item {
+  width: 15%;
+  margin: 0 0.5%;
+}
+
+.slide__image {
+  width: 100%;
+}
+
+.slider__title {
+  font-size: 120%;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.genresbtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  height: 23%;
+  width: 90%;
+  margin:1% 5%;
+
+  background-color: #F8FAFB;
+  box-shadow: 0 0 5px 10px #F8FAFB;
+
+}
+
+.genrerow {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.genrechoise {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 0.5% 2%;
+}
+
+.genrechoise:hover {
+  /* background-color: #c4aead; */
+  background-color: #E7EAED;
+}
