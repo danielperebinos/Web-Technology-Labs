@@ -52,8 +52,6 @@ header input, header input:active {
 }
 
 
-
-
 /* Footer */
 footer {
   width: 100%;
@@ -61,4 +59,29 @@ footer {
   height: 150px;
 
   background-color: #2A2E40;
+}
+
+
+/* Dark theme */
+.dark__header {
+  background-color: #242729;
+}
+
+.dark__link  {
+  color: #6b705c;
+  background-color: #242729;
+}
+
+.dark__link:hover  {
+  background-color: #343a40;
+}
+
+.dark__body {
+  color: #6b705c;
+  background-color: #343a40;
+  box-shadow: none;
+}
+
+.dark__mainbox {
+  background-color: #242525;
 }

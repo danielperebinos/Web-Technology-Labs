@@ -41,17 +41,22 @@
   width: 100%;
 }
 
-.slider__title {
+.listtitle {
   font-size: 120%;
+
 }
 
+/* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Ограничивающая оболочка */
 .slick-list {
   overflow: hidden;
 }
-
+/* Лента слайдов */
 .slick-track {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
