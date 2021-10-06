@@ -1,10 +1,11 @@
 .mainbox {
-  max-width: 80%;
-  height: 1500px;
+  max-width: 970px;
+  max-height: 100%;
 
-  margin: auto;
+  margin: 0 auto;
   background-color: #E7EAED;
 }
+
 
 .background {
   background-image: url("Images/elf.jpg");
@@ -28,8 +29,8 @@
   height: 200px;
   align-items: center;
 
-  margin-top: 2%;
-  padding: 2% 0;
+  margin: 30px 0;
+  padding: 15px 0;
 }
 
 .slider {
@@ -38,12 +39,12 @@
 }
 
 .slider__item {
-  width: 22%;
+  max-width: 22%;
   margin: 0 0.5%;
 }
 
 .slide__image {
-  width: 100%;
+  max-width: 100%;
 }
 
 .slider__title {
@@ -66,8 +67,7 @@
   flex-direction: column;
   justify-content: space-around;
 
-  height: 23%;
-  width: 90%;
+  height: 150px;
   margin:1% 5%;
 
   background-color: #F8FAFB;
@@ -88,6 +88,24 @@
 }
 
 .genrechoise:hover {
-  /* background-color: #c4aead; */
   background-color: #E7EAED;
+}
+
+@media (max-width:780px) {
+  .mainbox {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .topbooks, .latest, .newBooks {
+    height: 80px;
+    margin: 0 0 40px 0;
+  }
+  .slide__image {
+    margin: 0 0.5%;
+    max-height: 80px
+   }
+  .genresbtn {
+    margin: 15px 0;
+    height: 150px;
+  }
 }

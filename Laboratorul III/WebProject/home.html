@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Home</title>
 
     <link rel="stylesheet" href="Styles/home.css">
@@ -14,24 +15,33 @@
     <header>
       <a href="home.html" class="logo">Story</a>
 
-      <nav>
-        <a href="top.html">Top</a>
-        <a href="#">Collection</a>
-      </nav>
+      <div class="menu">
+        <nav>
+          <a href="top.html" class="nav__links">Top</a>
+          <a href="#" class="nav__links" onclick="changeTheme()">Dark/Light</a>
+        </nav>
 
-      <form class="" action="index.html" method="post">
-        <input type="text" name="searcbox" value="">
-      </form>
+        <form class="" action="index.html" method="post" class="nav__links">
+          <input type="text" name="searcbox" value="" class="nav__links">
+        </form>
 
-      <nav>
-        <a href="login.html">Login</a>
-        <a href="register.html">Register</a>
-      </nav>
+        <nav>
+          <a href="login.html" class="nav__links">Login</a>
+          <a href="register.html" class="nav__links">Register</a>
+        </nav>
+
+      </div>
+
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
     </header>
 
 
     <div class="mainbox">
-      <div onclick="changeTheme()" class="background"></div>
+      <div class="background"></div>
 
       <div class="topbooks">
         <span class="slider__title">Tops</span>
@@ -41,6 +51,15 @@
             <a href="text.html">
               <div class="img_container">
                 <img src="Styles/Images/treipurclusi.jpg" alt="" class="slide__image">
+              </div>
+              <span>Title</span>
+            </a>
+          </div>
+
+          <div class="slider__item">
+            <a href="text.html">
+              <div class="img_container">
+                <img src="Styles/Images/elf.jpg" alt="" class="slide__image">
               </div>
               <span>Title</span>
             </a>
@@ -172,6 +191,15 @@
             </a>
           </div>
 
+          <div class="slider__item">
+            <a href="text.html">
+              <div class="img_container">
+                <img src="Styles/Images/elf.jpg" alt="" class="slide__image">
+              </div>
+              <span>Title</span>
+            </a>
+          </div>
+
         </div>
       </div>
 
@@ -190,14 +218,34 @@
             </a>
           </div>
 
-          <div class="slider__item">
-            <a href="text.html">
-              <div class="img_container">
-                <img src="Styles/Images/elf.jpg" alt="" class="slide__image">
+
+            <div class="slider__item">
+              <a href="text.html">
+                <div class="img_container">
+                  <img src="Styles/Images/elf.jpg" alt="" class="slide__image">
+                </div>
+                <span>Title</span>
+              </a>
+            </div>
+
+              <div class="slider__item">
+                <a href="text.html">
+                  <div class="img_container">
+                    <img src="Styles/Images/elf.jpg" alt="" class="slide__image">
+                  </div>
+                  <span>Title</span>
+                </a>
               </div>
-              <span>Title</span>
-            </a>
-          </div>
+
+
+                <div class="slider__item">
+                  <a href="text.html">
+                    <div class="img_container">
+                      <img src="Styles/Images/elf.jpg" alt="" class="slide__image">
+                    </div>
+                    <span>Title</span>
+                  </a>
+                </div>
 
           <div class="slider__item">
             <a href="text.html">
@@ -226,14 +274,6 @@
             </a>
           </div>
 
-          <div class="slider__item">
-            <a href="text.html">
-              <div class="img_container">
-                <img src="Styles/Images/elf.jpg" alt="" class="slide__image">
-              </div>
-              <span>Title</span>
-            </a>
-          </div>
         </div>
       </div>
 
@@ -247,6 +287,7 @@
     <script src="scripts/slick.min.js"></script>
     <script src="scripts/script.js"></script>
     <script src="scripts/theme.js"></script>
+    <script src="scripts/menu.js"></script>
 
   </body>
 </html>
