@@ -157,29 +157,31 @@ footer {
 
 
 /* Dark theme */
-.dark__header {
-  background-color: #242729;
-}
+.dark{}
 
-.dark__link  {
-  color: #6b705c;
-  background-color: #242729;
-}
-
-.dark__link:hover  {
-  background-color: #343a40;
-}
-
-.dark__body {
+.dark .genresbtn{
   color: #6b705c;
   background-color: #343a40;
   box-shadow: none;
 }
 
-.dark__mainbox {
+.dark header {
+  background-color: #242729;
+}
+
+.dark a  {
+  color: #6b705c;
+  background-color: #242729;
+}
+
+.dark a:hover  {
+  background-color: #343a40;
+}
+
+.dark .mainbox {
   background-color: #242525;
 }
 
-.dark__titlebox {
+.dark .titlebox {
   background-color: #01161e;
 }

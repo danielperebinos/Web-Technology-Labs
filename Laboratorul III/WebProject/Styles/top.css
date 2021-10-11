@@ -1,6 +1,5 @@
 .mainbox {
   max-width: 80%;
-
   margin: 60px auto;
 }
 
@@ -12,11 +11,8 @@
   height: 120px;
   margin: 10px 0;
 
-  overflow-x: hidden;
-}
-
-.titlebox__light {
   background-color: #E7EAED;
+  overflow-x: hidden;
 }
 
 .number {
