@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Subscription</title>
+
+    <link rel="stylesheet" href="styles/template.css">
+    <link rel="stylesheet" href="styles/login.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <a href="home.html" class="logo">Story</a>
+
+      <div class="menu">
+        <nav>
+          <a href="top.html" class="nav__links">Top</a>
+          <a href="#" class="nav__links" onclick="changeTheme()">Dark/Light</a>
+        </nav>
+
+        <form class="" action="index.html" method="post">
+          <input type="text" name="searcbox" value="">
+        </form>
+
+        <nav>
+          <a href="login.html" class="nav__links">Login</a>
+          <a href="register.html" class="nav__links">Register</a>
+        </nav>
+
+      </div>
+
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </header>
+
+
+    <div class="mainbox" style="height: 200px;">
+      <div class="title" style="height: 30%;">Subscription</div>
+
+      <form class="input" action="forms/subscription.php" method="post" style="height: 70%;">
+        <input type="text" name="name" placeholder="name" class="loginitem">
+        <input type="text" name="email" placeholder="email" class="loginitem">
+        <input type="submit" name="submit" value="Subscribe" class="loginbtn">
+      </form>
+
+    </div>
+
+    <script src="scripts/theme.js"></script>
+    <script src="scripts/menu.js"></script>
+
+  </body>
+</html>
