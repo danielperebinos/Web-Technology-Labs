@@ -1,14 +1,4 @@
 <?php
-
-if(empty($_POST["name"]) ||
-  empty($_POST["email"]) ||
-  empty($_POST["password"]) ||
-  empty($_POST["confirm"]) )
-{
-    echo "You should complete all inputs";
-    exit;
-}
-
 $name = $_POST["name"];
 $email = $_POST["email"];
 $password = $_POST["password"];
@@ -44,13 +34,6 @@ $validation = $_POST["confirm"];
     <h1 style="text-align: center;">Register Form Input</h1>
 
     <?php
-    if($password !== $validation) {
-      echo "Incorect validation password";
-    }
-    else if(strlen($password) < 5) {
-        echo "Password should have 5 or more characters";
-    }
-    else {
       echo "
     <table>
       <tr>
@@ -66,7 +49,7 @@ $validation = $_POST["confirm"];
           <td class=\"pass\">$password</th>
           <td class=\"conf\">$validation</th>
         </tr>
-    </table>";}
+    </table>"
     ?>
 
 

@@ -36,11 +36,6 @@ $password = $_POST["password"];
     <h1 style="text-align: center;">Login Form Input</h1>
 
     <?php
-    if (strlen($password) < 5)
-    {
-      echo "Your password is Incorect";
-    }
-    else{
       echo"
         <table>
           <tr>
@@ -52,8 +47,7 @@ $password = $_POST["password"];
               <td class=\"email\">$email</th>
               <td class=\"pass\">$password</th>
             </tr>
-        </table>";
-      }
+        </table>"
       ?>
 
   </body>

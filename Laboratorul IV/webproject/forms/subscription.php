@@ -1,10 +1,4 @@
 <?php
-
-if(empty($_POST["name"]) || empty($_POST["email"])) {
-    echo "You should complete all inputs";
-    exit;
-}
-
 $name = $_POST["name"];
 $email = $_POST["email"];
 
