@@ -38,7 +38,7 @@ $(document).ready(function() {
           event.preventDefault();
         }
 
-        if ($('input[name="password"]').val() != $('input[name="confirm"]').val())
+        if ($('input[name="password"]').val() !== $('input[name="confirm"]').val())
         {
           $('input[name="confirm"]').css("background-color", "red");
           $('input[name="confirm"]').val("");
