@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Personal Account</title>
+
+    <link rel="stylesheet" href="styles/template.css">
+    <link rel="stylesheet" href="styles/account.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <a href="home.html" class="logo">Story</a>
+
+      <div class="menu">
+        <nav>
+          <a href="top.html" class="nav__links">Top</a>
+          <a href="#" class="nav__links" onclick="changeTheme()">Dark/Light</a>
+        </nav>
+
+        <form class="" action="index.html" method="post">
+          <input type="text" name="searcbox" value="">
+        </form>
+
+        <nav>
+          <a href="login.html" class="nav__links">Login</a>
+          <a href="register.html" class="nav__links">Register</a>
+        </nav>
+
+      </div>
+
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </header>
+
+    <div class="mainbox">
+      <span class="name">Name</span>
+      <div class="latest">
+        <span class="latest__title">Latest Readed</span>
+        <ol class="latest__list">
+          <li class="latest__element"><a href="text.html">Story1</a></li>
+          <li class="latest__element"><a href="text.html">Story2</a></li>
+          <li class="latest__element"><a href="text.html">Story3</a></li>
+          <li class="latest__element"><a href="text.html">Story4</a></li>
+          <li class="latest__element"><a href="text.html">Story5</a></li>
+        </ol>
+      </div>
+    </div>
+
+    <script src="scripts/theme.js"></script>
+    <script src="scripts/menu.js"></script>
+
+  </body>
+</html>
